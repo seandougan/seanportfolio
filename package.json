@@ -10,7 +10,8 @@
     "lint:fix": "next lint --fix ",
     "build:production": "next lint --fix && prettier -w . && next build",
     "prettier:write": "prettier -w .",
-    "prettier:check": "prettier -c ."
+    "prettier:check": "prettier -c .",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^13.1.6",
