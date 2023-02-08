@@ -12,7 +12,6 @@ yarn dev
 pnpm dev
 ```
 
-
 ## Atomic Design
 
 This Web Application was designed with organic design principles.
@@ -22,6 +21,3 @@ https://medium.com/geoblinktech/how-to-build-a-webpage-following-atomic-design-e
 ## Purpose
 
 Sean's portfolio page. Just a simple work and skill showcase; redirect to business page if interested
-
-
-
