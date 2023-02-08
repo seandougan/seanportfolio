@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.seandougan.ca
+
+# Sitemaps
+Sitemap: https://www.seandougan.ca/sitemap.xml
