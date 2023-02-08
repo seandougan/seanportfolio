@@ -6,9 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint --fix",
+    "lint": "next lint ",
     "production": "next lint && next build",
-    "prettify": "next prettier -cw"
+    "prettify": "prettier -w .",
+    "prettycheck": "prettier -c ."
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^13.1.6",
@@ -37,13 +38,13 @@
     "pretty-quick": "^3.1.3"
   },
   "lingt-staged": {
-    "src/**/*/.{js,html.css.scss.tsx}": "next lint --fix && prettier --write",
-    "src/**/*/.{js}": "next lint --fix && prettier --write",
-    "src/**/*/.{tsx}": "next lint --fix && prettier --write"
+    "src/**/*/.{js,html.css.scss.tsx}": "next lint  && prettier --write .",
+    "src/**/*/.{js}": "next lint  && prettier --write .",
+    "src/**/*/.{tsx}": "next lint  && prettier --write ."
   },
   "husky": {
     "hooks": {
-      "pre-commit": "pretty-quick --staged && prettier --write && next lint --fix"
+      "pre-commit": "pretty-quick --staged && prettier --write . && next lint"
     }
   }
 }
