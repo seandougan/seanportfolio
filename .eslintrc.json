@@ -1,13 +1,14 @@
 {
-  "extends": ["next/core-web-vitals",
+  "extends": [
+    "next/core-web-vitals",
     "next",
     "prettier",
     "eslint:recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:react/recommended"],
-  "rules": {"react/react-in-jsx-scope": "off"},
-  "plugins": ["@typescript-eslint",
-    "prettier"],
+    "plugin:react/recommended"
+  ],
+  "rules": { "react/react-in-jsx-scope": "off" },
+  "plugins": ["@typescript-eslint", "prettier"],
   "parser": "@typescript-eslint/parser",
-  "globals": {"React": "writable"}
+  "globals": { "React": "writable" }
 }
