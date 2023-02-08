@@ -12,7 +12,8 @@
     "build:production": "next lint --fix && prettier -w . && next build && next-sitemap",
     "prettier:write": "prettier -w .",
     "prettier:check": "prettier -c .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "cypress": "cypress open"
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^13.1.6",
