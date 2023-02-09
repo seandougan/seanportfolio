@@ -1,4 +1,4 @@
-import stylesheet from '@/templates/background/background.module.scss'
+import stylesheet from '@/templates/background/background.module.scss';
 
 export default function Background() {
   return (

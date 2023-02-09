@@ -1,5 +1,5 @@
-import Background from '@/templates/background/background'
-import Head from 'next/head'
+import Background from '@/templates/background/background';
+import Head from 'next/head';
 
 export default function Home() {
   return (
