@@ -1,5 +1,5 @@
-export default function Button(){
-  return(
+export default function Button() {
+  return (
     <>
       <button></button>
     </>

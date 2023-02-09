@@ -1,7 +1,7 @@
-export default function Label(){
-  return(
+export default function Label() {
+  return (
     <>
-     <Label></Label>
+      <Label></Label>
     </>
   )
 }

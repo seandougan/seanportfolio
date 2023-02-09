@@ -1,5 +1,5 @@
-export default function List(){
-  return(
+export default function List() {
+  return (
     <>
       <List></List>
     </>

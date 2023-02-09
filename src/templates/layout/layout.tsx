@@ -1,5 +1,5 @@
-export default function Layout(){
-  return(
+export default function Layout() {
+  return (
     <>
       <button></button>
     </>
