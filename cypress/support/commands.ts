@@ -33,5 +33,9 @@
 //       dismiss(subject: string, options?: Partial<TypeOptions>): Chainable<Element>
 //       visit(originalFn: CommandOriginalFn, url: string, options: Partial<VisitOptions>): Chainable<Element>
 //     }
+//
 //   }
 // }
+// @ts-ignore
+// @ts-ignore
+export default function(){}

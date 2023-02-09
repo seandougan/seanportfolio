@@ -1,20 +1,21 @@
+import stylesheet from '@/templates/background/background.module.scss';
 
 
-export default function background(){
+export default function Background(){
   return(
     <>
-      <div className="lamp">
-        <div className="lava">
-          <div className="blob"></div>
-          <div className="blob"></div>
-          <div className="blob"></div>
-          <div className="blob"></div>
-          <div className="blob"></div>
-          <div className="blob"></div>
-          <div className="blob"></div>
-          <div className="blob"></div>
-          <div className="blob top"></div>
-          <div className="blob bottom"></div>
+      <div className={stylesheet.lamp}>
+        <div className={stylesheet.lava}>
+          <div className={stylesheet.blob}></div>
+          <div className={stylesheet.blob}></div>
+          <div className={stylesheet.blob}></div>
+          <div className={stylesheet.blob}></div>
+          <div className={stylesheet.blob}></div>
+          <div className={stylesheet.blob}></div>
+          <div className={stylesheet.blob}></div>
+          <div className={stylesheet.blob}></div>
+          <div className={stylesheet.blob}></div>
+          <div className={stylesheet.blob}></div>
         </div>
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
@@ -29,5 +30,5 @@ export default function background(){
       <h1 className="text-light">CSS Lava Lamp</h1>
       <p className="text-light">Originally by Rose Lui</p>
     </>
-  );
+  )
 }
