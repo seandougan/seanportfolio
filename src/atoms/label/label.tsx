@@ -1,7 +1,9 @@
-export default function Label() {
+import { AppProps } from 'next/app'
+
+export default function Label(props: AppProps) {
   return (
     <>
-      <Label></Label>
+      <label>{props.Component.displayName}</label>
     </>
   )
 }

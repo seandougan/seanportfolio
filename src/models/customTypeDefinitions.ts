@@ -1,5 +1,1 @@
-type listName = { name : string };
-
-export default function TypeDefinitions(){
-
-}
+export type ListName = { name: string }

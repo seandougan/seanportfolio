@@ -1,7 +1,8 @@
-import Background from '@/templates/background/background';
-import Head from 'next/head';
+import Background from '@/templates/background/background'
+import Head from 'next/head'
+import { AppProps } from 'next/app'
 
-export default function Home() {
+export default function Home(props: AppProps) {
   return (
     <>
       <Head>
